@@ -1,0 +1,53 @@
+/*{
+	border: 1px solid #000;
+}*/
+
+@font-face{
+	font-family: Segoe UI;
+	src: url('../fonts/segoeuisl.ttf');
+	font-weight: bold;
+}
+
+#menu{
+	text-align: right;
+}
+
+#header{
+	margin-top: 80px;
+	text-align: center;
+}
+#headercolor{
+	color: #88C9F6;
+	font-family: Segoe UI;
+	font-size: 80px;
+}
+#paragraphcolor{
+	color: #88C9F6;
+	font-family: Segoe UI;
+	font-weight: bold;
+}
+
+#homebody{
+	background-color:#F8F8F8;
+}
+#aboutbody{
+	background-color:#F8F8F8;
+}
+#about{
+	margin-top: -50px;
+}
+#beli{
+	font-size: 100px;
+}
+#h1color{
+	/*color: #f8f8f8;
+	font-family: Segoe UI;
+	font-weight: bold;*/
+}
+#questions{
+	background-color: #88C9F6;
+}
+#nem{
+	display: inline-block;
+	text-align: center;
+}
