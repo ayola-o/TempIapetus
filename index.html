@@ -24,7 +24,7 @@
 <div class="Page1">
 <h1 id="headercolor"> Who Will </br>You Be In The  <span style="color:#5A90BC;"><strong>Future?</strong></span></h1>
 <p id="paragraphcolor"> Check out our fool proof litmus test for gauging your future worth </p>
-<button type="button" class="success button" ><a href ="howrich1.html"> START NOW </a></button>
+<button id="start" type="button" class="success button" ><a href ="#"> START NOW </a></button>
 </div>
 
 
@@ -32,10 +32,12 @@
   <br>
     <h4 id="pcolor"> Question 1/7 </h4>
     <label><h1 id="h1color">First of all, What is your name?</h1></label>
-    <input type="text" id="nem" placeholder="Name" /><br>
-    <button type="button" class="success button" ><a href ="index.html"> PREVIOUS </a></button>
-    <button type="button" class="success button" onclick="newName()"><a href ="howrich.html"> NEXT </a></button>
+    <input type="text" id="nem" placeholder="Name"/><br>
+    <button type="button" id="next1"class="success button" onclick="newName()"><a href ="#"> NEXT </a></button>
 </div>
+
+
+
 
 <div class="Questions" id="Q2">
     <h4 id="pcolor"> Question 2/7 </h4>
@@ -43,8 +45,8 @@
     <input type="radio" name="pokemon" value="male" id="male"><label for="male"> <p id="pcolor">Male</p></label>
     <input type="radio" name="pokemon" value="female" id="female"><label for="female"><p id="pcolor">Female </p></label>
     <input type="radio" name="pokemon" value="bobrisky" id="bobrisky"><label for="bobrisky"><p id="pcolor">Bobrisky</p></label><br>
-    <button type="button" class="success button"  ><a href ="howrich1.html"> PREVIOUS </a></button>
-    <button type="button" class="success button"   ><a href ="howrich2.html"> NEXT </a></button>
+    <button type="button" id="prev1"class="success button"  ><a href ="#"> PREVIOUS </a></button>
+    <button type="button" id="next2"class="success button"   ><a href ="#"> NEXT </a></button>
 </div>
 
 <div class="Questions"id="Q3">
@@ -54,17 +56,14 @@
     <input type="radio" name="pokemon" value="designer" id="designer"><label for="designer"><p id="pcolor">Designer</p></label>
     <input type="radio" name="pokemon" value="content" id="content"><label for="content"><p id="pcolor">Content Provider</p></label>
     <input type="radio" name="pokemon" value="banker" id="banker"><label for="banker"><p id="pcolor">Banker</p></label>
-    <input type="radio" name="pokemon" value="teacher" id="teacher"><label for="teacher"><p id="pcolor">Teacher</p></label>
     <input type="radio" name="pokemon" value="woman" id="woman"><label for="woman"><p id="pcolor">Woman of the night</p></label>
     <input type="radio" name="pokemon" value="doctor" id="doctor"><label for="doctor"><p id="pcolor">Doctor</p></label>
     <input type="radio" name="pokemon" value="lawyer" id="lawyer"><label for="lawyer"><p id="pcolor">Lawyer</p></label>
-    <input type="radio" name="pokemon" value="taxify" id="taxify"><label for="taxify"><p id="pcolor">Taxify/Uber Driver</p></label>
     <input type="radio" name="pokemon" value="intern" id="intern"><label for="intern"><p id="pcolor">Intern at a startup in Yaba</p></label>
     <input type="radio" name="pokemon" value="twitter" id="twitter"><label for="twiiter"><p id="pcolor">Staying woke on twitter</p></label>
-    <input type="radio" name="pokemon" value="alariwo" id="alariwo"><label for="alariwo"><p id="pcolor">Alariwo</p></label>
     <input type="radio" name="pokemon" value="politician" id="politician"><label for="politician"><p id="pcolor">I am a Nigerian Politician</p></label><br>
-    <button type="button" class="success button" ><a href ="howrich.html"> PREVIOUS </a></button>
-    <button type="button" class="success button" ><a href ="howrich3.html"> NEXT </a></button>
+    <button type="button" id="prev2"class="success button" ><a href ="#"> PREVIOUS </a></button>
+    <button type="button" id="next3"class="success button" ><a href ="#"> NEXT </a></button>
 </div>
 
 <div class="Questions"id="Q4">
@@ -77,8 +76,8 @@
     <input type="radio" name="pokemon" value="intern" id="intern"><label for="intern"><p id="pcolor">Nothing, I am an intern getting paid in exposure </p></label>
     <input type="radio" name="pokemon" value="Red" id="dollars"><label for="dollars"><p id="pcolor">I earn in dollars</p></label>
     <input type="radio" name="pokemon" value="Red" id="politician"><label for="politician"><p id="pcolor">I am a Nigerian Politician</p></label><br>
-    <button type="button" class="success button" ><a href ="howrich2.html"> PREVIOUS </a></button>
-    <button type="button" class="success button" ><a href ="howrich4.html"> NEXT </a></button>
+    <button type="button" id="prev3"class="success button" ><a href ="#"> PREVIOUS </a></button>
+    <button type="button" id="next4"class="success button" ><a href ="#"> NEXT </a></button>
 </div>
 
 <div class="Questions"id="Q5">
@@ -90,8 +89,8 @@
     <input type="radio" name="pokemon" value="5" id="5"><label for="5"><p id="pcolor">3-5</p></label>
     <input type="radio" name="pokemon" value="10" id="10"><label for="10"><p id="pcolor">5-10</p></label>
     <input type="radio" name="pokemon" value="pol" id="pol"><label for="pol"><p id="pcolor">I am a Nigerian Politician</p></label><br>
-    <button type="button" class="success button" ><a href ="howrich3.html"> PREVIOUS </a></button>
-    <button type="button" class="success button" ><a href ="howrich5.html"> NEXT </a></button>
+    <button type="button" id="prev4" class="success button" ><a href ="#"> PREVIOUS </a></button>
+    <button type="button" id="next5" class="success button" ><a href ="#"> NEXT </a></button>
     </div>
 
 <div class="Questions" id="Q6">
@@ -102,8 +101,8 @@
     <input type="radio" name="pokemon" value="500k" id="500k"><label for="500k"><p id="pcolor">100k - 500k</p></label>
     <input type="radio" name="pokemon" value="1mil" id="1mil"><label for="1mil"><p id="pcolor">500k - 1,000,000</p></label>
     <input type="radio" name="pokemon" value="politician" id="politician"><label for="politician"><p id="pcolor">I am a Nigerian Politician</p></label><br>
-    <button type="button" class="success button" ><a href ="howrich4.html"> PREVIOUS</a></button>
-    <button type="button" class="success button" ><a href ="howrich6.html"> NEXT </a></button>
+    <button type="button" id="prev5" class="success button" ><a href ="#"> PREVIOUS</a></button>
+    <button type="button" id="next6" class="success button" ><a href ="#"> NEXT </a></button>
 </div>
 
 <div class="Questions"id="Q7">
@@ -112,14 +111,35 @@
     <label><h1 id="h1color">Are you single?</h1></label>
     <input type="radio" name="pokemon" value="yes" id="yes"><label for="yes"> <p id="pcolor">Yes</p></label>
     <input type="radio" name="pokemon" value="no" id="no"><label for="no"><p id="pcolor">No</p></label><br>
-    <button type="button" class="success button" ><a href ="howrich5.html"> PREVIOUS </a></button>
-    <button type="button" class="success button" ><a href ="#"> FINISH </a></button>
+    <button type="button" id="prev6" class="success button" ><a href ="#"> PREVIOUS </a></button>
+    <button type="button" id="finish" class="success button" ><a href ="#"> FINISH </a></button>
 </div>
+
+<div class="finito" id="Answer">
+  <h1 id="answer">You Are Bobrisky</h1><br>
+  <p id="paragraphcolor">You go girllll !</p><br>
+   Keep tensioning people's daddies!</li></br>
+   Hopefully their children do not find you and beat you</li></br>
+   #YOLO</br>
+   <button type="button" class="success button" ><a href ="#"> RETAKE QUIZ </a></button>
+  </ul>
+  </div>
+
+
+</div>
+<div id="twitter">
 
 </div>
 </div>
+</div>
 
-<script src="assets\js\stress.js" charset="utf-8"></script>
-<script src="assets\js\vendor\jquery.js" charset="utf-8"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="assets\js\vendor\jquery.js"></script>
+  <script src="assets\js\stress.js"></script>
+  <script src="assets\js\app.js"></script>
+
+
+
 </body>
 </html>
