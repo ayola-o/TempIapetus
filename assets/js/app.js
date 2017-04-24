@@ -30,10 +30,10 @@ var answer = [
   +"We would be sending the EFCC in your direction soon"},
   {"name": "Aliko Dangote","image": "https://www.bellanaija.com/wp-content/uploads/2014/01/Aliko-Dangote-Bloomberg-Billionaires-Index-January-2014-BellaNaija.jpg", "Trait": "Father of the Economy!"
   +"H'appy weekend sir!"
-  +"Awon boyz yin loyal baje sir"}
+  +"Awon boyz yin loyal baje sir"},
   {"name": "Folorunsho Alakija","image": "http://kingdomnews.ng/wp-content/uploads/2016/11/Alakija.jpg", "Trait": "H'appy new month ma!"
   +"Loyalist la wa oh! "
-  +"Shake body for the boys"}
+  +"Shake body for the boys"},
   {"name": "Imogie Mubarak","image": "https://pbs.twimg.com/profile_images/689506244017553408/WsUM_qNb.jpg", "Trait": "La Flames"
   +"Loyalist la wa oh! "}
 ]

@@ -75,24 +75,17 @@ $('#prev6').click(function (){
   $('#Q7').hide();
   $('#Q6').fadeIn(1200);
 });
-$('#finish').click(function (){
-  $('#Q7').hide();
-  $('#Answer').show(slow);
-  $('#Answer').fadeIn(1200);
-  $("#twitter").show("slow");
-  $("#twitter").fadeIn(1200);
 
+$('#finish').click(function (){                                 
+  $('#Q7').hide();
+  $('#Answer').fadeIn(1200);
+  $('#Answer').fadeIn(1200);
+  $("#twitter").fadeIn(1200);
+  $("#twitter").fadeIn(1200);
+});
 var selectedOption2 = $("input:radio[name='Q2']:checked").val();
 var selectedOption3 = $("input:radio[name='Q3']:checked").val();
 var selectedOption4 = $("input:radio[name='Q4']:checked").val();
 var selectedOption5 = $("input:radio[name='Q5']:checked").val();
 var selectedOption6 = $("input:radio[name='Q6']:checked").val();
 var selectedOption7 = $("input:radio[name='Q7']:checked").val();
-
-if (selectedOption2 == 'bobrisky') {
-
-} else {
-
-}
-
-});
