@@ -36,4 +36,4 @@ var answer = [
   +"Shake body for the boys"},
   {"name": "Imogie Mubarak","image": "https://pbs.twimg.com/profile_images/689506244017553408/WsUM_qNb.jpg", "Trait": "La Flames"
   +"Loyalist la wa oh! "}
-]
+];

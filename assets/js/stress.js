@@ -1,8 +1,7 @@
-
-var person;
+$(document).ready(function(){
+  var person;
 var picture;
-var reccurent = "<h1 class = 'satisfied'>Not Satisfied?</h1>"+"<input type='button' id='restart' value = 'Try again'><br>"+
-"<h3 class = 'logo'>Geek<span id = 'dot'>.</span>Inc</h3>";
+var reccurent = "<h1 class = 'satisfied'>Not Satisfied?</h1>"+"<input type='success button' id='restart' value = 'Try again'><br>";
 
 $('#Q1').hide();
 $('#Q2').hide();
@@ -75,17 +74,28 @@ $('#prev6').click(function (){
   $('#Q7').hide();
   $('#Q6').fadeIn(1200);
 });
-
-$('#finish').click(function (){                                 
+$('#finish').click(function (){
   $('#Q7').hide();
   $('#Answer').fadeIn(1200);
-  $('#Answer').fadeIn(1200);
-  $("#twitter").fadeIn(1200);
-  $("#twitter").fadeIn(1200);
-});
-var selectedOption2 = $("input:radio[name='Q2']:checked").val();
+  
+var selectedOption2 = $("input:radio[name='pokemons']:checked").val();
 var selectedOption3 = $("input:radio[name='Q3']:checked").val();
 var selectedOption4 = $("input:radio[name='Q4']:checked").val();
 var selectedOption5 = $("input:radio[name='Q5']:checked").val();
 var selectedOption6 = $("input:radio[name='Q6']:checked").val();
 var selectedOption7 = $("input:radio[name='Q7']:checked").val();
+var character = $(".finito").html();
+
+if (selectedOption2 == "bobrisky") {
+  $(".finito").html("<h2>Osheyyy Bardest! You are "+answer[0].name+"</h2>"+
+    "<img src ="+answer[0].image+">"+"<br>"+"<p marginTop= '5px'>"+answer[0].Trait+"</p>" + reccurent);
+  $(".finito").radioOn();
+  $(".finito").logoOn();
+  console.log(selectedOption2);
+  character = $(".finito").html();
+  person = answer[0].name;
+  picture = answer[0].image;
+}
+});
+
+});
